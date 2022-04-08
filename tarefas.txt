@@ -1,0 +1,75 @@
+========== PROJETO IHC ===========
+
+== NO GERAL ==
+
+- Corrigir butões de goback e alterar o icone do home button
+- O home button deve fazer clear de todos os parâmetros já inseridos (talvez n tirar o current location)
+- Alterar o design da app
+- Alterar o design dos botões para algo mais minimalista
+- Autocomplete quando inserimos uma cidade!!!!!!
+- O autocomplete deve ter a opção de colocar terminais em vez de cidade (quando queremos deslocar-nos na mesma city)
+
+== FICHEIROS DE TEXTO ==
+
+Diogo, cria um ficheiro para os transportes privados
+exemplo:
+Aveiro/Taxi/Taxis do Rogério/967712345
+Aveiro/Taxi/blabla/911111111
+Porto/Taxi/jdjwijd/893392203
+Aveiro/Moliceiro/Moliceiros Boa-Vida/912121212
+
+Adicionar mais transportes
+
+== MainActivity ==
+
+- Alterar logo (mais tarde)
+- Ver o que fazer com os botões de baixo
+
+== Show transports ==
+
+(PAULO)
+
+- Criar lista dinâmica de todos os transportes nessa cidade
+- Passar os parâmetros dos filtros de bus/train/metro (done)
+- Mudar o titulo dos transportes privados (ex: "transport type" para Taxi
+- Fazer lista dinâmica para os transportes privados
+
+== Saved routes ==
+
+- Lista dinâmica de todas as saved routes (classe Route)
+- Quando clicamos numa saved route deve mostrar uma lista dinâmica com cada percurso da mesma
+
+== Create trip (com breakpoints) ==
+
+DONE!
+- Ver só onde mudamos o botão de swap e os outros
+
+== Search results == 
+
+- Alterar imagem do tipo de transporte (buscar à net 80x80 pixeis)
+- Alterar icones do relogio e do preço (buscar à net 30x30 pixeis)
+- Permitir voltar à página de create trip (com os dados introduzidos anteriormente)
+- Botão de goback permite ir para a trip anterior (até chegar à primeira, regressando à página das locations)
+- Permite ir ver os detalhes dessa trip (more info)
+- Permitir seleção do container e, quando é clicado, guardar a trip e meter as bordas coloridas de seleção
+- CRIAR MODAL/ATIVIDADE PARA GUARDAR A ROTA COM UM NOME QUE VAI SER INTRODUZIDO
+
+== Route all details ==
+
+- Lista dinâmica de todas as Trips que pertencem à Route
+- Botão de delete
+- Permitir alterar o titulo da route
+- Ver se dá para alterar uma trip em específico!
+
+== XML'S == 
+
+- Mudar o XML do route details
+
+== Classes necessárias para representar informação ==
+
+Trip (apenas uma viagem) - done
+Route (conjunto de viagens) - almost done
+
+== MAPAS ==
+
+Basta termos um mapa só para visualização (dos terminais e isso) que podemos obter a partir das coordenadas
